@@ -1,3 +1,6 @@
-Create a new folder for your mainboard under $(YOUR-COREBOOT-DIR)/3rdparty/blobs/mainboard/lenovo/t420 then copy descriptor, gbe and me to it.
+Thinkpad's Coreboot experimenting
+=================================
 
-I also included an old TianoCore build for the old 8MB SPI, can boot Windows 10 with working sleep but no audio through headphone jack. Main speaker worked fine. Otherwise everything else including headphone jack worked perfectly fine under any GNU/Linux distribution.
+This is a collection of blobs I found and used for compiling Coreboot. You can extract any of these from your stock BIOS dump. If you want to try compiling Coreboot yourself or don't have access to your backed up dump, you can use any blobs you can find here.
+
+Create a new folder for your mainboard under **\$(COREBOOT_DIR)/3rdparty/blobs/mainboard/lenovo/${MODEL}** then copy descriptor, gbe and me to it.
