@@ -1,0 +1,3 @@
+[submodule "t440p/stock/biosdump"]
+	path = t440p/stock/biosdump
+	url = https://github.com/t440p/biosdump
